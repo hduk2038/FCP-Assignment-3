@@ -59,5 +59,7 @@ void save_users()
 }
 
 void read_users()
-{
+{char* decompression;
+    decompression = run_length_decompression(input);
+    printf("%s", decompression);
 }
